@@ -5,6 +5,6 @@ import {
   getdatawarehouse
 } from "../controllers/index.controller";
 
-router.get("/getData", getdatawarehouse);
+router.get("/", getdatawarehouse);
 
 export default router;
